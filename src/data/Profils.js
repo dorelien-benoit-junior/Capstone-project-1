@@ -50,23 +50,23 @@ export const Profils = [
   },
   {
   id: 8,
-  name: "Patrick Noel",
-  position: "Chef de Projet",
+  nom: "Patrick Noel",
+  poste: "Chef de Projet",
   department: "Management",
-  status: "actif"
+  statut: "Actif"
 },
 {
   id: 9,
-  name: "Nadia Laurent",
-  position: "Analyste de Données",
+  nom: "Nadia Laurent",
+  poste: "Analyste de Données",
   department: "Data",
-  status: "actif"
+  statut: "Actif"
 },
 {
   id: 10,
-  name: "Ricardo Pierre",
-  position: "Technicien Support",
+  nom: "Ricardo Pierre",
+  poste: "Technicien Support",
   department: "Support",
-  status: "inactif"
+  statut: "Inactif"
 }
 ]
