@@ -1,6 +1,7 @@
 import EmployeeCard from "./EmployeeCard";
 export default function EmployeeList({nom, items, poste, département, statut}){
-    return(<section>
+    return(
+      <section>
       <div>
          <h2>{nom}</h2>
        <div className="media-container">

@@ -52,21 +52,21 @@ export const Profils = [
   id: 8,
   nom: "Patrick Noel",
   poste: "Chef de Projet",
-  department: "Management",
+  département: "Management",
   statut: "Actif"
 },
 {
   id: 9,
   nom: "Nadia Laurent",
   poste: "Analyste de Données",
-  department: "Data",
+  département: "Data",
   statut: "Actif"
 },
 {
   id: 10,
   nom: "Ricardo Pierre",
   poste: "Technicien Support",
-  department: "Support",
+  département: "Support",
   statut: "Inactif"
 }
 ]
