@@ -1,0 +1,20 @@
+
+
+img{
+    width: 30%;
+    height: auto;
+    padding: 15px;
+}
+.headStyle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(21, 21, 152);
+}
+.headStyle h1{
+    font-size: 2.5rem;
+    color: var(--text-h);
+    font-family: var(--heading);
+    font-weight: 500;
+    margin: 0;
+}

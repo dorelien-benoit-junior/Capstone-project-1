@@ -18,14 +18,14 @@ const EmployeeForm = ({ onAdd }) => {
 
   return (
     <div className="employee-form-container">
-        <h1>🏢 Gestion des Employés</h1>
+        <h1>Gestion des Employés</h1>
 
         <div className="form-sections">
             <form onSubmit={handleSubmit}>
                 <h2>➕ Ajouter un employé</h2>
 
                 <div className="form-group">
-                    <label htmlFor="nom">👤 Nom:</label>
+                    <label htmlFor="nom">Nom:</label>
                     <input
                     type="text"
                     id="nom"
@@ -35,7 +35,7 @@ const EmployeeForm = ({ onAdd }) => {
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="poste">💼 Poste:</label>
+                    <label htmlFor="poste">Poste:</label>
                     <input
                     type="text"
                     id="poste"
@@ -45,7 +45,7 @@ const EmployeeForm = ({ onAdd }) => {
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="département">🏢 Département:</label>
+                    <label htmlFor="département">Département:</label>
                     <input
                     type="text"
                     id="département"
@@ -55,7 +55,7 @@ const EmployeeForm = ({ onAdd }) => {
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="statut">📊 Statut:</label>
+                    <label htmlFor="statut">Statut:</label>
                     <select id="statut" name="statut" required>
                         <option value="">Sélectionnez un statut</option>
                         <option value="actif">✅ Actif</option>
@@ -65,7 +65,7 @@ const EmployeeForm = ({ onAdd }) => {
                     </select>
                 </div>
 
-                <button type="submit">🚀 Ajouter l'employé</button>
+                <button type="submit">Ajouter l'employé</button>
             </form>
         </div>
     </div>
